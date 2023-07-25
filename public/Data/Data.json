@@ -1,0 +1,101 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name" : "icon fa fa-chain fa-2x",
+            "title" : "Nature",
+            "body" : "lorem inpyi tylo palo ijkl wiol hyui tryol poiu wext yter vbio omnu iuyt rxet ased sxcr hyui oplk"
+        },
+        {
+            "id" : 2,
+            "icon_name" : "icon fa fa-bolt fa-2x",
+            "title" : "People",
+            "body" : "lorem inpyi tylo palo ijkl wiol hyui tryol poiu wext yter vbio omnu iuyt rxet ased sxcr hyui oplk"
+        },
+        {
+            "id" : 3,
+            "icon_name" : "icon fa fa-tachometer fa-2x",
+            "title" : "places",
+            "body" : "lorem inpyi tylo palo ijkl wiol hyui tryol poiu wext yter vbio omnu iuyt rxet ased sxcr hyui oplk"
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id" : 1,
+            "image" : "/images/portfolio-img1.jpg"
+        },
+        {
+            "id" : 2,
+            "image" : "/images/portfolio-img2.jpg"
+        },
+        {
+            "id" : 3,
+            "image" : "/images/portfolio-img3.jpg"
+        },
+        {
+            "id" : 4,
+            "image" : "/images/portfolio-img4.jpg"
+        },
+        {
+            "id" : 5,
+            "image" : "/images/portfolio-img5.jpg"
+        },
+        {
+            "id" : 6,
+            "image" : "/images/portfolio-img6.jpg"
+        },
+        {
+            "id" : 7,
+            "image" : "/images/portfolio-img7.jpg"
+        },
+        {
+            "id" : 8,
+            "image" : "/images/portfolio-img8.jpg"
+        }
+    ],
+    
+    "profile" : [
+        {
+            "id" : 1,
+            "skill" : "Html",
+            "degree" : "90"
+        },
+        {
+            "id" : 2,
+            "skill" : "Css",
+            "degree" : "85"
+        },
+        {
+            "id" : 3,
+            "skill" : "JavaScript",
+            "degree" : "80"
+        }
+    ],
+    
+    "social" : [
+        {
+            "id" : 1,
+            "icon" : "icon fa fa-facebook fa-lg",
+            "title" : "Follow me on",
+            "body"  : "Social Facebook ",
+            "bgColor" : "blue"
+        },
+        {
+            "id" : 2,
+            "icon" : "icon fa fa-twitter fa-lg",
+            "title" : "Tweet me on",
+            "body"  : "Social Twitter",
+            "bgColor" : "rgb(0 , 90 , 100)"
+        },
+        {
+            "id" : 3,
+            "icon" : "icon fa fa-pinterest fa-lg",
+            "title" : "Pin me on",
+            "body"  : "Social Pinterest",
+            "bgColor" : "tomato"
+        }
+    ]
+
+    
+}
