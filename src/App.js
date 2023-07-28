@@ -16,7 +16,7 @@ export default class App extends Component {
         <Navbar />
 
         <Routes>
-            <Route path='/' element={<Collection />} />
+            <Route path='/Rabee397.github.io/Ultra' element={<Collection />} />
             <Route path='/contact' element={<Contact />} />
         </Routes>
       
