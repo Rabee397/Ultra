@@ -22,7 +22,7 @@ const Navbar = ()=> {
     <Header className='flex-full main-padd header'>
         <h1> ULTRA</h1>
         <Nav  className={ isMob ? "nav-mob" : "navbar flex-full" }>
-            <Link to='/'> Home </Link>
+            <Link to='/Rabee397.github.io/Ultra'> Home </Link>
             <LinkScroll activeClass="active" className='linkscroll' to="work" spy={true} smooth={true} offset={-200} duration={200} >
                Work  
             </LinkScroll>   
