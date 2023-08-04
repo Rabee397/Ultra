@@ -12,11 +12,11 @@ export default class App extends Component {
   render() {
     
     return (
-      <BrowserRouter>
+      <BrowserRouter basename='/Ultra'>
         <Navbar />
 
         <Routes>
-            <Route path='/Rabee397.github.io/Ultra' element={<Collection />} />
+            <Route path='/Ultra' element={<Collection />} />
             <Route path='/contact' element={<Contact />} />
         </Routes>
       
