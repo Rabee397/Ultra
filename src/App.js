@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter , Routes , Route } from 'react-router-dom';
+import {HashRouter , Routes , Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Collection from './Components/Collection';
 import Contact from './Components/Contact';
@@ -12,7 +12,7 @@ export default class App extends Component {
   render() {
     
     return (
-      <BrowserRouter basename='/Ultra'>
+      <HashRouter basename='/Ultra'>
         <Navbar />
 
         <Routes>
@@ -20,7 +20,7 @@ export default class App extends Component {
             <Route path='/contact' element={<Contact />} />
         </Routes>
       
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
