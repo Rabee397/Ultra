@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter , Routes , Route } from 'react-router-dom';
+import {HashRouter , Routes , Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Collection from './Components/Collection';
 import Contact from './Components/Contact';
@@ -12,15 +12,15 @@ export default class App extends Component {
   render() {
     
     return (
-      <BrowserRouter>
+      <HashRouter basename='/Ultra'>
         <Navbar />
 
         <Routes>
-            <Route path='/Rabee397.github.io/Ultra' element={<Collection />} />
+            <Route path='/Ultra' element={<Collection />} />
             <Route path='/contact' element={<Contact />} />
         </Routes>
       
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
